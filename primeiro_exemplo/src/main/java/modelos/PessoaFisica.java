@@ -10,4 +10,9 @@ public class PessoaFisica extends Pessoa {
     public int getIdade() {
         return this.idade;
     }
+
+    @Override
+    public void setNome(String nome) {
+        this.nome = "PF: " + nome;
+    }
 }
